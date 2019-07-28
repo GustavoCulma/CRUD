@@ -7,9 +7,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * Clase Conexion JDBC
- */
+//Clase Conexion JDBC
+
 public class Conexion {
 
     //Valores de conexion a MySql
@@ -18,10 +17,10 @@ public class Conexion {
     //El puerto es opcional
     private static String JDBC_URL = "jdbc:mysql://localhost/sga?useSSL=false";
     private static String JDBC_USER = "root";
-    private static String JDBC_PASS = "admin";
+    private static String JDBC_PASS = "";
     private static Driver driver = null;
 
-	//Para que no haya problemas al obtener la conexion de
+    //Para que no haya problemas al obtener la conexion de
     //manera concurrente, se usa la palabra synchronized
     public static synchronized Connection getConnection()
             throws SQLException {
