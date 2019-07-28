@@ -15,7 +15,7 @@ public class ManejoPersonas {
         personasJDBC.update(2, "Nombre3", "Apellido3");
 		
         //Prueba del metodo delete
-        //personasJDBC.delete(1);
+        personasJDBC.delete(1);
       
         //Prueba del metodo select
         //Uso de un objeto persona para encapsular la informacion
