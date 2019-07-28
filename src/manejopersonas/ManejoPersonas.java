@@ -12,7 +12,7 @@ public class ManejoPersonas {
         personasJDBC.insert("Alberto", "Juarez");
         
         //Prueba del metodo update
-        //personasJDBC.update(2, "Nombre3", "Apellido3");
+        personasJDBC.update(2, "Nombre3", "Apellido3");
 		
         //Prueba del metodo delete
         //personasJDBC.delete(1);
